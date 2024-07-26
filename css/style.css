@@ -347,3 +347,22 @@ background: #435f7a;
 .Serrurerie-content ul li{
     margin-bottom: 10px;
 }
+/* brands start here  */
+#brands-row{
+    justify-content: center;
+    row-gap: 24px;
+    align-items: center;
+}
+
+/* footer start here  */
+footer{
+    background-color: #000;
+    padding: 24px 0;
+    color: #CACACA;
+}
+footer a{
+color: #CACACA;
+}
+footer a:hover{
+text-decoration: underline;
+}
