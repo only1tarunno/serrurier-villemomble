@@ -193,7 +193,7 @@ a{
 
 }
 .icon-list{
-    gap: 22px;
+    gap: 2px;
     flex-direction: row;
 }
 
@@ -442,6 +442,11 @@ text-decoration: underline;
 @media (max-width: 575px) {
     .p-80 {
         padding: 40px 0;
+    }
+    #hero-row {
+        min-height: 60vh; 
+        align-items: center;
+        padding: 40px 0; 
     }
 
 }
