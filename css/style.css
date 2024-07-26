@@ -353,7 +353,29 @@ background: #435f7a;
     row-gap: 24px;
     align-items: center;
 }
-
+/* contact */
+.contact-heading h2{
+    color: #33414F;
+    margin-bottom: 40px;
+}
+.form-control { 
+    color: #33414F;
+    background-color: #FAFAFA;
+    border: 1px solid #eee;
+}
+.form-control:focus {
+    color: #33414F;
+    background-color: #FAFAFA;
+    border-color: #eee;
+    box-shadow: none;
+}
+.contact-right h3{
+    color: #33414F;
+    font-size: 24px;
+}
+iframe {
+    display: block;
+}
 /* footer start here  */
 footer{
     background-color: #000;
