@@ -66,6 +66,16 @@ a{
     background: var(--cs-orange);
     border: 2px solid var(--cs-orange) ;
 }
+.cs-btn {
+    color: var(--cs-orange) !important;
+    border: 2px solid var(--cs-orange) !important;
+}
+
+.cs-btn:hover {
+    color: var(--cs-white) !important;
+    background: var(--cs-secondary) !important;
+    border: 2px solid var(--cs-secondary) !important;
+}
 
 /* ------------global ends---------- */
 /* header starts */
@@ -208,16 +218,7 @@ color: var(--cs-secondary);
     max-width: 544px;
 }
 
-.about-content a {
-    color: var(--cs-orange) !important;
-    border: 2px solid var(--cs-orange) !important;
-}
 
-.about-content a:hover {
-    color: var(--cs-white) !important;
-    background: var(--cs-secondary) !important;
-    border: 2px solid var(--cs-secondary) !important;
-}
 /* price section start here  */
 .price{
     background-color: var(--cs-primary);
@@ -269,4 +270,80 @@ background: #435f7a;
     color: var(--cs-white) !important;
     background: var(--cs-secondary) !important;
     border: 2px solid var(--cs-secondary) !important;
+}
+#faq-row{
+    row-gap: 40px;
+}
+.accordion-button {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #EEEEEE;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #EEEEEE;
+    outline: 0;
+    box-shadow: none 
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/downarrow.svg);   
+}
+
+/* feature section start here  */
+.feature{
+    background-color: #FAFAFA;
+}
+.feature-heading h2 {
+    color: #33414F;
+}
+
+.feature-card-row {
+    margin-top: 40px;
+    row-gap: 24px;
+}
+
+.feature-card {
+    background: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    box-shadow: 0 0 20px 4px #0000000D;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.feature-card:hover {
+    box-shadow: 0 0 20px 4px #4e9dec6c;
+}
+
+.feature-card-img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.feature-card-content h5 {
+    color: #33414F;
+    font-size: 18px;
+    font-weight: 600;
+    flex-grow: 1;
+}
+/* Serrurerie sectuin start here  */
+.Serrurerie{
+    background-color: #164E87;
+    color: var(--cs-white);
+}
+.Serrurerie-content{
+    max-width: 800px;
+}
+.Serrurerie-content ul li{
+    margin-bottom: 10px;
 }
